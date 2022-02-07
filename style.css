@@ -99,6 +99,7 @@ p {
 .paragraph-about p {
   margin: 20px;
   padding: 20px;
+  background-color: snow;
 }
 
 .navigation {
@@ -130,10 +131,6 @@ p {
   font-weight: bolder;
 }
 
-.secondary-background {
-  background-color: snow;
-}
-
 .contact-email {
   background-color: var(--primary-color);
   color: #eb6262;
@@ -154,6 +151,8 @@ p {
   display: block;
   text-align: center;
   text-decoration: none;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .email-link:hover {
